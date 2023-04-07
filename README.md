@@ -1,23 +1,7 @@
 # Single for-loop traversal over 2D arrays
 
-It demonstrates the use of a single for-loop for two-dimensional arrays. It shows the traversal of a two-dimensional array by one for-loop structure. A 2D-array variable (A) is declared with mixed datatypes as before, namely with string literals and number literals. A string variable t is initially set to empty. A variable v is set to zero and it represents the main counter of the for-loop. Another two variables (ie. i and j) are initialized with value zero and are the main coordinates for element identification. Each dimension of array A is stored in variables n and m, namely the number of rows in n and the number of columns in m. The upper limit of the for-loop is calculated based on the two known dimensions n and m. Thus, m times n establishes the upper limit of the for-loop. Here, the value of the counter v from the for-loop is used to calculate the i and j values that are used as an index to traverse the array variable A. The value of variable j is computed as the v % m and the result of this expression indicates the reminder (ex. 5 mod 3 is 2). The secret to this implementation is a condition that increments a variable i (rows) each time j (columns) equals zero. Thus, in this manner this approach provides the i and j values that a nested for-loop provides. At each iteration, the value from an element is added to the content of variable t. Once the end of the for-loop is reached, the value collected in variable t is printed in the output for inspection.
+It demonstrates the use of a single for-loop for two-dimensional arrays. It shows the traversal of a two-dimensional array by one for-loop structure. A 2D-array variable (<i>A</i>) is declared with mixed datatypes as before, namely with string literals and number literals. A string variable <i>t</i> is initially set to empty. A variable <i>v</i> is set to zero and it represents the main counter of the for-loop. Another two variables (ie. <i>i</i> and <i>j</i>) are initialized with value zero and are the main coordinates for element identification. Each dimension of array <i>A</i> is stored in variables <i>n</i> and <i>m</i>, namely the number of rows in n and the number of columns in <i>m</i>. The upper limit of the for-loop is calculated based on the two known dimensions <i>n</i> and <i>m</i>. Thus, <i>m</i> times <i>n</i> establishes the upper limit of the for-loop. Here, the value of the counter <i>v</i> from the for-loop is used to calculate the <i>i</i> and <i>j</i> values that are used as an index to traverse the array variable <i>A</i>. The value of variable <i>j</i> is computed as the <i>v % m</i> and the result of this expression indicates the reminder (ex. 5 mod 3 is 2). The secret to this implementation is a condition that increments a variable <i>i</i> (rows) each time <i>j</i> (columns) equals zero. Thus, in this manner this approach provides the <i>i</i> and <i>j</i> values that a nested for-loop provides. At each iteration, the value from an element is added to the content of variable <i>t</i>. Once the end of the for-loop is reached, the value collected in variable <i>t</i> is printed in the output for inspection.
 
 # References
 
 - Paul A. Gagniuc. <i>An Introduction to Programming Languages: Simultaneous Learning in Multiple Coding Environments</i>. Synthesis Lectures on Computer Science. Springer International Publishing, 2023, pp. 1-280.
-
-
-
-	██████╗ ██████╗     ██╗███╗   ██╗     ██████╗ ███╗   ██╗███████╗    
-	╚════██╗██╔══██╗    ██║████╗  ██║    ██╔═══██╗████╗  ██║██╔════╝    
-	 █████╔╝██║  ██║    ██║██╔██╗ ██║    ██║   ██║██╔██╗ ██║█████╗      
-	██╔═══╝ ██║  ██║    ██║██║╚██╗██║    ██║   ██║██║╚██╗██║██╔══╝      
-	███████╗██████╔╝    ██║██║ ╚████║    ╚██████╔╝██║ ╚████║███████╗    
-	╚══════╝╚═════╝     ╚═╝╚═╝  ╚═══╝     ╚═════╝ ╚═╝  ╚═══╝╚══════╝    
-																		
-	███████╗ ██████╗ ██████╗       ██╗      ██████╗  ██████╗ ██████╗    
-	██╔════╝██╔═══██╗██╔══██╗      ██║     ██╔═══██╗██╔═══██╗██╔══██╗   
-	█████╗  ██║   ██║██████╔╝█████╗██║     ██║   ██║██║   ██║██████╔╝   
-	██╔══╝  ██║   ██║██╔══██╗╚════╝██║     ██║   ██║██║   ██║██╔═══╝    
-	██║     ╚██████╔╝██║  ██║      ███████╗╚██████╔╝╚██████╔╝██║        
-	╚═╝      ╚═════╝ ╚═╝  ╚═╝      ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝       
